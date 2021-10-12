@@ -1,0 +1,28 @@
+main {
+  max-width: 80%;
+  padding: 8%;
+  margin: auto;
+  margin-top: -3%;
+  display: flex; /*this makes everything in that tag a flexbox*/
+  justify-content: space-between;
+}
+
+main article {
+  width: 45%;
+}
+
+button {
+  margin: 10px;
+}
+
+#destinations_container {
+  background-color: #efefef;
+  padding: 5%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+p {
+  padding: 5%;
+  margin: auto;
+}

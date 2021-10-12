@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+  margin-top: 1em;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 1%;
+  background: #71d6da;
+  color: white;
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+main {
+  max-width: 80%;
+  padding: 8%;
+  margin: auto;
+  margin-top: -3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /*this makes everything in that tag a flexbox*/
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main article {
+  width: 45%;
+}
+
+#destinations_container {
+  background-color: #efefef;
+  padding: 5%;
+  margin-bottom: 5%;
+}
+
+p {
+  padding: 5%;
+  margin: auto;
+}
+
+main form {
+  width: 45%;
+}
+
+label {
+  display: block;
+  margin-bottom: 1em;
+}
+
+input,
+textarea,
+#destination_details_form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 1em;
+  border: 1px solid #666;
+  padding: 2%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#title {
+  text-align: center;
+  padding-bottom: 5%;
+  margin-top: 0;
+  padding-top: 0;
+}
+/*# sourceMappingURL=styles.css.map */
